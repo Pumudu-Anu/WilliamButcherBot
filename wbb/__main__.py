@@ -82,7 +82,7 @@ async def start_bot():
         "+===============================================================+"
     )
     print(
-        "|                              WBB                              |"
+        "|                          Kumiko💞                             |"
     )
     print(
         "+===============+===============+===============+===============+"
@@ -109,8 +109,8 @@ async def help_command(_, message):
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
-                        text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        text="Support 🛠",
+                        url="https://t.me/KumikoSetsuko",
                     ),
                 ],
                 [
@@ -119,7 +119,7 @@ async def help_command(_, message):
                         callback_data="stats_callback",
                     ),
                     InlineKeyboardButton(
-                        text="Support 👨", url="t.me/WBBSupport"
+                        text="Channel", url="https://t.me/TheKumikoSetsuko"
                     ),
                 ],
             ]
@@ -135,8 +135,8 @@ async def help_command(_, message):
                     text="Commands ❓", callback_data="bot_commands"
                 ),
                 InlineKeyboardButton(
-                    text="Repo 🛠",
-                    url="https://github.com/thehamkercat/WilliamButcherBot",
+                    text="Support",
+                    url="https://t.me/KumikoSetsuko",
                 ),
             ],
             [
@@ -145,12 +145,12 @@ async def help_command(_, message):
                     callback_data="stats_callback",
                 ),
                 InlineKeyboardButton(
-                    text="Support 👨", url="t.me/WBBSupport"
+                    text="Channel", url="https://t.me/TheKumikoSetsuko"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="Add Me To Your Group 🎉",
+                    text="➕ Add Me To Your Group ➕ ",
                     url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
                 )
             ],
@@ -172,6 +172,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some usefule features.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
+       ....AI Powered By @KumikoSetsuko .....
 
 General command are:
  - /start: Start the bot
