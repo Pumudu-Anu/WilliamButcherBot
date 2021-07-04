@@ -157,7 +157,12 @@ async def help_command(_, message):
         ]
     )
     await message.reply(
-        f"Hey there! My name is {BOT_NAME}. I can manage your group with lots of useful features, feel free to add me to your group.",
+         """
+Hello there, I'm Kumiko 💞 (https://telegra.ph/file/6a28b7d789b7a2adcc6db.jpg)
+I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+✪ Powered by @KumikoSetsuko ✪ 
+"""
+
         reply_markup=keyboard,
     )
 
