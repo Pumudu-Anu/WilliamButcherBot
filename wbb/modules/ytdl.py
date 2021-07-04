@@ -36,7 +36,7 @@ from wbb.utils.formatter import \
     convert_seconds_to_minutes as timeFormat
 from wbb.utils.functions import downloader
 
-__MODULE__ = "YoutubeDL"
+__MODULE__ = "Music"
 __HELP__ = "/ytdl [VIDEO_LINK] - Download a youtube video."
 
 
